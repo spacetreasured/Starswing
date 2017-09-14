@@ -1,0 +1,1 @@
+//draw_rectangle_color(x+50,y+50,x-50,y-50,c_red,c_red,c_red,c_red,0);
