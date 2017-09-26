@@ -9,9 +9,9 @@ else
 
 draw_sprite_ext(sprite_index,0,x,y,pausescale,pausescale,0,pausedcolor,1);
 
-//draw_set_halign(fa_left);
-//draw_text(200,200,global.starspeed);
-//draw_text(100,100,fps_real);
+draw_set_halign(fa_left);
+draw_text(200,200,global.ballnumber);
+draw_text(100,100,fps_real);
 
 /*draw_set_font(fTest);
 draw_set_valign(fa_bottom);

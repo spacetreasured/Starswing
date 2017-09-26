@@ -63,3 +63,6 @@ if global.paused
 {
 	global.freeze = 10;
 }
+
+//counting the balls that exist
+global.ballnumber = instance_number(oEnemy);

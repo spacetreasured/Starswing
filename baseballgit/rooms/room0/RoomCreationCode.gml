@@ -8,3 +8,4 @@ global.paused = 0;
 global.strikecount = 0;
 global.starspeed = 40;
 global.staryscale = 6;
+global.ballnumber = instance_number(oEnemy);
