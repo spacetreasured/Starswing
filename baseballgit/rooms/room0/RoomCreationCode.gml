@@ -9,3 +9,5 @@ global.strikecount = 0;
 global.starspeed = 40;
 global.staryscale = 6;
 global.ballnumber = instance_number(oEnemy);
+global.ballnumberlimit = 3;
+global.ballspawnspeed = 100;
