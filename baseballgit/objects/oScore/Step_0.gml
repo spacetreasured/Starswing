@@ -16,3 +16,12 @@ else
 }
 
 timer -= 1;
+
+if global.transitionswitch == 1
+{
+	if !instance_exists(eTransition)
+	{
+		instance_create_depth(x,y,0,eTransition);
+	}
+	global.transitionswitch = 0;
+}

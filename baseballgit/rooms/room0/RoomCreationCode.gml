@@ -11,3 +11,4 @@ global.staryscale = 6;
 global.ballnumber = instance_number(oEnemy);
 global.ballnumberlimit = 3;
 global.ballspawnspeed = 100;
+global.transitionswitch = 0;
