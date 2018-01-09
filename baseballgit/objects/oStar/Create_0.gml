@@ -1,9 +1,9 @@
-if instance_exists(eTransition)
+/*if instance_exists(eTransition)
 {
 	sprite_index = sStar1;
 	image_alpha = 0.75;
 }
-else
+else*/
 {
 	sprite_index = choose(sStar1,sStar1,sStar2,sStar2,sStar3);
 	image_alpha = 1;
@@ -28,4 +28,4 @@ orgx = x;
 shine = 0;
 timer = 0;
 orgspr = sprite_index;
-image_yscale = global.staryscale;
+//image_yscale = global.staryscale;

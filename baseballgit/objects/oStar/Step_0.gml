@@ -56,7 +56,7 @@ if instance_exists(oPlayer)
 	}
 }
 
-//transitions and speed changes
+/*transitions and speed changes
 
 if instance_exists(eTransition)
 {
@@ -66,7 +66,7 @@ if instance_exists(eTransition)
 		global.staryscale += 0.025;
 	}
 }
-else
+else*/
 {
 	if global.starspeed > 5
 	{
@@ -93,4 +93,4 @@ if sprite_index = sStar3
 	vspeed = global.starspeed + (choose(15,20));
 }
 
-image_yscale = global.staryscale; //yscale so it can be changed upon transition
+//image_yscale = global.staryscale; //yscale so it can be changed upon transition

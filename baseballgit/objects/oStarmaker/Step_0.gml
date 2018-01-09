@@ -1,10 +1,10 @@
 if timer <= 0
 {
-	if instance_exists(eTransition)
+	/*if instance_exists(eTransition)
 	{
 		timer = 5;
 	}
-	else
+	else*/
 	{
 		timer = 20;
 	}
